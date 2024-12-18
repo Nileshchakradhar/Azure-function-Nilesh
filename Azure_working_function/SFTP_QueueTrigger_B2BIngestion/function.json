@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "msg",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "sftp-queue",
+      "connection": "b2bstoragefunction_STORAGE"
+    }
+  ]
+}
